@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero-container {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15vw;
+}
+
+h3 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80vw;
+    gap: 20px;
+    white-space: nowrap;
+}
