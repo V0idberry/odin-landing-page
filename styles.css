@@ -50,9 +50,9 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 80vw;
     margin-top: 10px;
-    gap: 20px;
+    min-width: 568px;
+    gap: 50px;
     white-space: nowrap;
 }
 
@@ -67,6 +67,7 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-width: 284px;
     flex: 1;
     gap: 15px;
 }
@@ -85,10 +86,10 @@ ul {
 .hero-image {
     display: flex;
     flex: 1;
+    min-width: 284px;
+    align-items: center;
 }
 
 .hero-image img {
-    display: block;
-    max-width: 100%;
-    max-height: auto;
+    width: 100%;
 }
