@@ -51,7 +51,6 @@ ul {
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
-    min-width: 568px;
     gap: 50px;
     white-space: nowrap;
 }
