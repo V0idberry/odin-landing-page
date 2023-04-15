@@ -92,3 +92,45 @@ ul {
 .hero-image img {
     width: 100%;
 }
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20vw;
+}
+
+.info-container h2 {
+    align-self: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937
+}
+
+.box {
+    height: 140px;
+    width: 140px;
+    border: 2px solid #3882f6;
+    border-radius: 7px;
+    margin: 5px;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 140px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #1f2937;
+    text-align: center;
+
+}
