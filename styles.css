@@ -101,6 +101,7 @@ ul {
 
 .info-container h2 {
     align-self: center;
+    text-align: center;
     font-size: 36px;
     font-weight: 900;
     color: #1f2937
@@ -126,6 +127,7 @@ ul {
     align-items: center;
     justify-content: center;
     max-width: 140px;
+    margin-bottom: 60px;
 }
 
 .card p {
@@ -133,4 +135,27 @@ ul {
     color: #1f2937;
     text-align: center;
 
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20vw;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 60px;
+}
+
+.author {
+    color: #1F2937;
+    font-weight: 700;
+    text-align: end;
+    margin-top: 20px;
+    margin-bottom: 60px;
 }
