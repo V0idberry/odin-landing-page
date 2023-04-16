@@ -159,3 +159,35 @@ ul {
     margin-top: 20px;
     margin-bottom: 60px;
 }
+
+.action-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20vw;
+    min-height: 330px;
+    justify-content: center;
+}
+
+.action-wrapper {
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 30px 60px;
+}
+
+.action-wrapper .sign-up {
+    background-color: #3882f6;
+    font-size: 18px;
+    color: #E5E7EB;
+    border: 2px solid #E5E7EB;
+    box-sizing: border-box;
+    padding: 10px 30px;
+    max-width: 130px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    white-space: nowrap;
+}
